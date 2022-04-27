@@ -24,6 +24,8 @@
     "@skhemata/skhemata-portfolio": "^1.0.1",
     "@skhemata/skhemata-subscription": "^1.1.3",
     "@skhemata/skhemata-testimonial": "^1.1.0",
+    "@storybook/addon-essentials": "^6.4.22",
+    "@storybook/web-components": "^6.4.22",
     "lit-element": "^2.5.1",
     "lit-html": "^2.0.0-rc.3"
   },
