@@ -9,7 +9,7 @@ const components = [
   'skhemata-faq',
   'skhemata-testimonial',
   //"skhemata-contact",
-  // 'skhemata-subscription',
+  'skhemata-subscription',
   'skhemata-menu',
   'skhemata-portfolio',
   'skhemata-gdpr',
