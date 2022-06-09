@@ -22,7 +22,15 @@ const components = [
 ];
 
 module.exports = {
-  addons: ['@storybook/addon-essentials'],
+  addons: [{
+    name: '@storybook/addon-essentials',
+    options: {
+      actions: false,
+    }
+  },
+  {
+    name: '@skhemata/skhemata-storybook-widgetcode',
+  }],
   stories: components.map(
     name =>
       `../node_modules/@skhemata/${name}/dist/stories/**/*.stories.{js,md,mdx}`
